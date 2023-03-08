@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="/history/style.css">
+</head>
+<body>
+  <!-- nav section -->
+    <nav>
+        <div class="brand">
+          <a href="../">Book Store App</a>
+        </div>
+    </nav>
+  <!-- main section -->
+    <main>
+      <section>
+          <div class="title">Your previous searches</div>
+          <div><button id="clearbtn" onclick="handleClear()">Clear Search</button></div>    
+      </section>
+    <!-- history section -->
+      <section>
+        <div id="rows"></div>
+      </section>
+    </main>
+    <script src="/history/script.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>
